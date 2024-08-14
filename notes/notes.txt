@@ -1,0 +1,59 @@
+link: https://www.youtube.com/watch?v=nLRL_NcnK-4
+ Course Contents 
+(00:00:00) Introduction
+(00:04:48) Lecture 0 - Functions, Variables
+(01:50:24) Lecture 1 - Conditionals
+(02:46:23) Lecture 2 - Loops
+(04:07:10) Lecture 3 - Exceptions
+(04:51:45) Lecture 4 - Libraries
+(06:09:15) Lecture 5 - Unit Tests
+(07:00:22) Lecture 6 - File I/O
+(08:32:32) Lecture 7 - Regular Expressions
+(10:37:35) Lecture 8 - Object-Oriented Programming
+(13:28:47) Lecture 9 - Et Cetera
+
+
+LECTURE 0----------------------------------------------------------------------------
+
+print() -> shows whatever we put in the parentheses in the console output
+input() -> it takes a variable from the user by waiting to type and hit enter
+-comma adds a space between 2 strings while plus combines them into 1 word
+
+---print() documentation exaple:---
+print(*objects, sep='', end='\n', )
+*objects mean we can use as many objects as we want 
+*sep and end is parameters
+sep='' stands for separator .the default is one space but we can change it in whatever we want for exaple 2 spaces
+end='\n' means that the curcors will move to the next line
+
+---Type of parameters---
+positional:whatever you write first it prints first, whatever you write second it prints second exaple(strings and Variables)
+named: the are optional and you can use them by name exaple(sep and end)
+
+--How can i use quotation marks inside quotation marks?--
+ by using single quotation marks outside the double quotation marks
+ exaple: print('"hello"')
+ or bu using \" instead of the inside double quotes
+ exaple: print("hello, \"friend\"")
+
+ ---format string---
+ f{"string {variable}"}
+
+ --data type---
+ int -1 1 2 3 
+ bool true false
+ float 2.3 34.5
+ str hello text
+ after division the output is always a float
+
+ --interactive mode--
+ open terminal
+ run the command   python
+
+ --square a number--
+ number ** 2
+ or
+ pow(number , 2)
+
+ 
+
